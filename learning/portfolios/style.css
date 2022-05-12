@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans " 'Times New Roman', Times, serif;
+}
+a{text-decoration: none;}
+
+/* styling for hero section*/
+.hero_section{
+    width:100%;
+    display: flex;
+}
+
+.hero_box{
+    width: 50%;
+    overflow:hidden
+}
+.hero_box_first_half {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.time_is_up{
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.hungry{
+    font-weight: 400;
+    margin-bottom: 5%;
+    font-size: 5.5rem;
+    text-transform:uppercase;
+}
+
+.tired{
+    width: 80%;
+    color: black;
+    font-weight: 300; 
+    font-size: 1.5rem;
+}  
+.close{
+   max-width: 100%;
+    height: 100vh;
+
+}
+
+
+/* styling for skills section */
+.skills_section{
+    padding: 5%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.skill_name{
+    color: gray;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.skill_wrapper{
+    color: white;
+    list-style: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skill_wrapper li{
+    margin-right: 4%;
+    margin-top: 3%;
+    font-weight: 900;
+}
+
+/* styling for contact section */
+
+.contact_section{
+    padding: 5%;
+}
+
+.contact_section h4{
+    margin-bottom: 1%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contact_header_info{
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_header_info h3{
+    font-size: 1.5rem;
+    max-width: 40%;
+}
+
+.social_icons_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.social_icons_wrapper a{
+    margin-right: 10%;
+}
+
+.contact_form_wrapper{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.contact_form_textarea, .contact_form_input{
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 1.5%;
+}
+
+.contact_form_wrapper button {
+    padding: 1%;
+    color: white;
+    width: max-content;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: black;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    padding: 1% 3% 5%;
+    justify-content: space-between;
+    background-color: lightgray;
+    align-items: center;
+}
+
+footer p{
+
+    padding-left: 1rem;
+    border-left: 3px solid black;
+}
